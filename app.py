@@ -20,10 +20,6 @@ if uploaded_file is not None:
         df.reset_index(drop=True, inplace=True)
         print(df.columns)
 
-        # Показать первые строки таблицы
-        st.subheader("Предпросмотр данных")
-        st.dataframe(df.head())
-
 
 
         st.subheader("Суммарные продажи по месяцам")
